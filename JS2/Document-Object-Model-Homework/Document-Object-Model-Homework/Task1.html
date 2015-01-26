@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task1</title>
+   
+
+</head>
+<body>
+    <div>
+        <div>
+            <div>1</div>
+            <div>1</div>
+        </div>
+    </div>
+    <div>
+        <div>2</div>
+    </div>
+    <script>
+        function viaQuerySelectorAll() {
+            return document.querySelectorAll('div div');
+        }
+        console.log(viaQuerySelectorAll());
+
+        function viaGetElementByTagName() {
+            var nodeList = [];
+            var allDivs = document.getElementsByTagName('div');
+
+            for (var i = 0, len = allDivs.length; i < len; i++) {
+                if (allDivs[i].parentElement instanceof HTMLDivElement) {
+                    nodeList.push(allDivs[i]);
+                }
+            }
+            return nodeList;
+        }
+
+        console.log(viaGetElementByTagName());
+    </script>
+
+
+
+</body>
+</html>

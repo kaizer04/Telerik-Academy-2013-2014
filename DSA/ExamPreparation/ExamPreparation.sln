@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problem23DLabyrinth", "Problem23DLabyrinth\Problem23DLabyrinth.csproj", "{51B86C67-9AD7-4070-A81B-6EE75F1A4DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Businessman", "Businessman\Businessman.csproj", "{177584FD-ABF6-4299-8FF6-38CA34DB7710}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frames", "Frames\Frames.csproj", "{8144FDEA-4FCE-433F-B23F-C6DD4EAE3233}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51B86C67-9AD7-4070-A81B-6EE75F1A4DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B86C67-9AD7-4070-A81B-6EE75F1A4DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B86C67-9AD7-4070-A81B-6EE75F1A4DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B86C67-9AD7-4070-A81B-6EE75F1A4DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{177584FD-ABF6-4299-8FF6-38CA34DB7710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177584FD-ABF6-4299-8FF6-38CA34DB7710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177584FD-ABF6-4299-8FF6-38CA34DB7710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177584FD-ABF6-4299-8FF6-38CA34DB7710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8144FDEA-4FCE-433F-B23F-C6DD4EAE3233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8144FDEA-4FCE-433F-B23F-C6DD4EAE3233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8144FDEA-4FCE-433F-B23F-C6DD4EAE3233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8144FDEA-4FCE-433F-B23F-C6DD4EAE3233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

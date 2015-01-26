@@ -1,0 +1,10 @@
+﻿{
+  "output": "Error",
+  "ignore": [
+    ""
+  ],
+  "options": {
+    "predef": {},
+    "browser": false
+  }
+}

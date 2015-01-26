@@ -1,0 +1,209 @@
+
+SHORT DESCRIPTION
+
+    Windows PowerShell supports the following arithmetic operators:
+    -         Subtracts one value from another        6-2
+              times.
+ 
+        +, - (for subtraction)
+        11
+        C:\PS> (3+3)/ (1+1)
+        C:\PS> $b = 1,2
+
+    You can add numbers, strings, arrays, and hash tables. And, you can
+    the operation fails.
+	1
+    You can also perform arithmetic operations on objects of different types. 
+
+        C:\PS> $array = 1,2,3
+        1
+    Because the method that is used to evaluate statements is determined by the
+        file2
+        C:\PS> "file" * 3
+ 
+
+        c2                             Server02
+        You can add another hash table only to a hash table.
+        + 2 + <<<<  $hash1
+        C:\PS> $array + $hash1
+        b                              2
+        C:\PS> $sum[3]
+        PS C:\ps-test> $sum + $hash2
+        b                              2
+        C:\PS> $hash1 = @{a=1; b=2; c=3}
+
+        1
+        file
+        C:\PS>  $array
+        Name                           Value
+
+
+        C:\PS> (2 + 3.1).GetType().FullName
+        C:\PS> (512MB * 512MB).GetType().FullName
+        C:\PS> ([int32]::minvalue + [uint32]::maxvalue).gettype().fullname
+    results.
+
+        C:\PS> $intB = 4 
+        C:\PS> $c = 2 
+    strings, and arrays. However, you can also use arithmetic operators with 
+	Wednesday, January 02, 2008 1:28:42 PM
+	C:\PS> get-process | where {($_.ws * 2) -gt 50mb}
+	    967      30    58804      59496   416   930.97   2508 WINWORD
+	2 
+	C:\PS> 6 * 2 
+
+	+ 3 * <<<< "w" 
+
+
+	C:\PS> $servers = @{0 = "LocalHost"; 1 = "Server01"; 2 = "Server02"} 
+
+	C:\PS> $servers += @{3 = "Server03"} #Use assignment operator 
+
+    about_variables
+    more arithmetic operators to add, subtract, multiply, and divide
+              arrays, and hash tables.                "file" + "name"
+              operation.
+
+
+
+	C:\PS> $b = "A","B,"C"
+    appropriate to the .NET Framework type of the first object. If it fails to 
+
+
+        At line:1 char:4
+        Name                           Value
+        Cannot convert "System.Collections.Hashtable" to "System.Int32".
+        ----                           -----
+
+    the same key:
+
+
+        C:\PS> $hash1 += @{e = 5}
+        C:\PS> (2). GetType().FullName
+    Int32:
+        At line:1 char:22
+        C:\PS> $a = "Windows " 
+
+	    561      14     6592      28144   110 1,010.09    496 services
+	-9 
+        in a correct format." 
+	C:\PS> $b + $a 
+	1 Server01 
+	1 Server01 
+
+    also operate on strings, arrays, and hash tables. The addition operator
+
+    OPERATOR PRECEDENCE
+        C:\PS> 10+4/2
+        
+    tables.
+	3
+    multiplication operators in operations that include different object types:
+        3
+        C:\PS> 2 + "file"
+    Hash tables are a slightly different case. You can add hash tables. And,
+        b                              2
+
+
+        2
+        C:\PS> $hash1 + $hash2
+        3
+        2
+        ----                           -----
+
+
+    ARITHMETIC OPERATORS AND VARIABLES
+
+
+
+
+	PS C:\ps-test> "Windows" + " " + "PowerShell" 
+	C:\PS> $a + 4 
+	Name Value 
+SEE ALSO
+    also operate on strings, arrays, and hash tables. The addition operator
+    OPERATOR PRECEDENCE
+        
+	3
+        3
+    Hash tables are a slightly different case. You can add hash tables. And,
+
+        2
+        3
+        ----                           -----
+
+
+
+	PS C:\ps-test> "Windows" + " " + "PowerShell" 
+	Name Value 
+
+    also operate on strings, arrays, and hash tables. The addition operator
+
+    OPERATOR PRECEDENCE
+        C:\PS> 10+4/2
+        
+    tables.
+	3
+    multiplication operators in operations that include different object types:
+        3
+        C:\PS> 2 + "file"
+    Hash tables are a slightly different case. You can add hash tables. And,
+        b                              2
+
+
+        2
+        C:\PS> $hash1 + $hash2
+        3
+        2
+        ----                           -----
+
+
+    ARITHMETIC OPERATORS AND VARIABLES
+
+
+
+
+	PS C:\ps-test> "Windows" + " " + "PowerShell" 
+	C:\PS> $a + 4 
+	Name Value 
+SEE ALSO
+    also operate on strings, arrays, and hash tables. The addition operator
+    OPERATOR PRECEDENCE
+        
+	3
+        3
+    Hash tables are a slightly different case. You can add hash tables. And,
+
+        2
+        3
+        ----                           -----
+
+
+
+	PS C:\ps-test> "Windows" + " " + "PowerShell" 
+	Name Value 
+    about_Arithmetic_Operators
+    *         Multiplies integers; copies strings     6*2
+        7
+    tables, a new object is created that contains the objects from both
+        file16
+        + 2 + <<<<  "file"
+
+        4
+        + $hash1 + <<<<  $hash2
+        C:\PS> $hash1
+        C:\PS> (512MB).GetType().FullName
+
+
+	C:\PS> 7 % 2 
+	4 
+    about_hash_tables
+
+    Microsoft .NET Framework type of the leftmost object in the operation.
+        C:\PS> $hash1 = @{a=1; b=2; c=3}
+        c2                             Server02
+    that best expresses the result without losing  precision. For example:
+
+	W 
+
+

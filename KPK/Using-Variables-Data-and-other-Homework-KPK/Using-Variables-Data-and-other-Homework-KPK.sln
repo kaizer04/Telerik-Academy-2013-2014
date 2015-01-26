@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureRotation", "Using-Variables-Data-and-other-Homework-KPK\FigureRotation.csproj", "{AAA91D4C-C689-42DF-A47E-7338422ECA7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintStatistics", "PrintStatistics\PrintStatistics.csproj", "{3FC14924-E038-49C0-A826-8FEF931317EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAA91D4C-C689-42DF-A47E-7338422ECA7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAA91D4C-C689-42DF-A47E-7338422ECA7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAA91D4C-C689-42DF-A47E-7338422ECA7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAA91D4C-C689-42DF-A47E-7338422ECA7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FC14924-E038-49C0-A826-8FEF931317EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC14924-E038-49C0-A826-8FEF931317EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC14924-E038-49C0-A826-8FEF931317EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC14924-E038-49C0-A826-8FEF931317EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

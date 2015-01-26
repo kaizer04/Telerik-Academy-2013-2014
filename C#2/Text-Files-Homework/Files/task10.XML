@@ -1,0 +1,9 @@
+<?xml version='1.0' ?>
+<CONTEXTS>
+  <LINKGROUP>
+  	<ID>training</ID>
+	<TITLE>Training</TITLE>
+	<GLYPH>vs:/ctxtrain.gif</GLYPH>
+	<PRIO>1000</PRIO>
+  </LINKGROUP>
+</CONTEXTS>

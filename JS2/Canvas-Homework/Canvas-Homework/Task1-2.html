@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task-1-Face</title>
+</head>
+<body>
+    <canvas id="the-canvas"
+            width="1200"
+            height="800">
+        This is not supported for your browser!
+    </canvas>
+    <script>
+        // set 2d context, colors and line width
+        var canvas = document.getElementById('the-canvas');
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle = "lightblue";
+        ctx.strokeStyle = "337D8F";
+        ctx.lineWidth = 5;
+
+        // big circle
+        ctx.beginPath();
+        ctx.save();
+        ctx.scale(1, 0.9);
+        ctx.arc(300, 300, 110, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.stroke();
+        ctx.closePath();
+        //important to restore sizes before scale command
+        ctx.restore();
+
+        //mouth
+        ctx.save();
+        ctx.beginPath();
+        ctx.lineWidth = 7;
+        ctx.setTransform(1, 0.2, 0, 0.4, 0, 0); 
+        ctx.arc(270, 650, 40, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.stroke();
+        ctx.closePath();
+        //important to restore sizes before scale command
+        ctx.restore();
+
+        //nose
+        ctx.beginPath();
+        ctx.lineWidth = 4;
+        ctx.moveTo(295, 270);
+        ctx.lineTo(270, 270);
+        ctx.lineTo(295, 220);
+        ctx.stroke();
+        ctx.closePath();
+
+        //eyes
+        //big ellipsis of the eyes
+        ctx.save();
+        ctx.beginPath();
+        ctx.lineWidth = 5;
+        ctx.scale(1, 0.6);
+        ctx.arc(240, 400, 20, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.save();
+        ctx.arc(330, 400, 20, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.stroke();
+        ctx.closePath();
+        ctx.restore();
+
+        //small ellipsis of the eyes - pupils
+        ctx.save();
+        ctx.beginPath();
+        ctx.lineWidth = 5;
+        ctx.fillStyle = "337D8F";
+        ctx.scale(0.3, 1);
+        ctx.arc(1070, 400, 16, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.fill();
+        ctx.closePath();
+        ctx.beginPath();
+        ctx.save();
+        ctx.arc(770, 400, 16, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.fill();
+        ctx.closePath();
+        ctx.restore();
+
+        // hat
+        // bottom circle
+        ctx.fillStyle = "396693";
+        ctx.strokeStyle = "black";
+        ctx.beginPath();
+        ctx.lineWidth = 30;
+        ctx.scale(1, 0.1);
+        ctx.arc(1000, 2900, 400, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.fill();
+        ctx.closePath();
+        ctx.restore();
+
+        //rectangle
+        ctx.save();
+        ctx.beginPath();
+        ctx.fillStyle = "396693";
+        ctx.strokeStyle = "black";
+        ctx.lineWidth = 5;
+        ctx.fillRect(245, 95, 110, 180);
+        ctx.strokeRect(245, 95, 110, 180);
+        ctx.closePath();
+        ctx.restore();
+
+        //ellipses
+        ctx.save();
+        ctx.beginPath();
+        ctx.lineWidth = 15;
+        ctx.fillStyle = "396693";
+        ctx.strokeStyle = "black";
+        ctx.scale(1, 0.4);
+        ctx.arc(300, 250, 51, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.fill();
+        ctx.closePath();
+
+        ctx.beginPath();
+        ctx.save();
+        ctx.arc(300, 710, 52, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.fill();
+        ctx.closePath();
+        ctx.restore();
+
+        ctx.beginPath();
+        ctx.save();
+        ctx.arc(300, 691, 52, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.closePath();
+        ctx.restore();
+    </script>
+</body>
+</html>

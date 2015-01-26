@@ -1,0 +1,688 @@
+TOPIC
+ - 0 time(s).
+about_Arithmetic_Operators
+
+SHORT - 0 time(s).
+DESCRIPTION
+ - 0 time(s).
+Describes - 0 time(s).
+the - 0 time(s).
+operators - 0 time(s).
+that - 0 time(s).
+perform - 0 time(s).
+arithmetic - 0 time(s).
+in - 0 time(s).
+Windows - 0 time(s).
+PowerShell - 0 time(s).
+
+
+LONG - 0 time(s).
+DESCRIPTION
+
+ - 0 time(s).
+Arithmetic - 0 time(s).
+testoperators - 0 time(s).
+calculate - 0 time(s).
+numeric - 0 time(s).
+values - 0 time(s).
+You - 0 time(s).
+can - 0 time(s).
+use - 0 time(s).
+one - 0 time(s).
+or
+ - 0 time(s).
+more - 0 time(s).
+arithmetic - 0 time(s).
+operators - 0 time(s).
+to - 0 time(s).
+add - 0 time(s).
+subtract - 0 time(s).
+multiply - 0 time(s).
+and - 0 time(s).
+divide
+ - 0 time(s).
+values - 0 time(s).
+and - 0 time(s).
+to - 0 time(s).
+calculate - 0 time(s).
+the - 0 time(s).
+remainder - 0 time(s).
+(modulus) - 0 time(s).
+of - 0 time(s).
+a - 0 time(s).
+division - 0 time(s).
+operation - 0 time(s).
+
+
+ - 0 time(s).
+In - 0 time(s).
+addition - 0 time(s).
+the - 0 time(s).
+addition - 0 time(s).
+operator - 0 time(s).
+(+) - 0 time(s).
+and - 0 time(s).
+multiplication - 0 time(s).
+operator - 0 time(s).
+(*)
+ - 0 time(s).
+also - 0 time(s).
+operate - 0 time(s).
+otestn - 0 time(s).
+strings - 0 time(s).
+arrays - 0 time(s).
+and - 0 time(s).
+hash - 0 time(s).
+tables - 0 time(s).
+The - 0 time(s).
+addition - 0 time(s).
+operator
+ - 0 time(s).
+concatenates - 0 time(s).
+the - 0 time(s).
+input - 0 time(s).
+The - 0 time(s).
+multiplication - 0 time(s).
+operator - 0 time(s).
+returns - 0 time(s).
+multiple - 0 time(s).
+copies
+ - 0 time(s).
+of - 0 time(s).
+the - 0 time(s).
+input - 0 time(s).
+You - 0 time(s).
+testcan - 0 time(s).
+even - 0 time(s).
+mix - 0 time(s).
+object - 0 time(s).
+types - 0 time(s).
+in - 0 time(s).
+an - 0 time(s).
+arithmetic - 0 time(s).
+statement - 0 time(s).
+
+ - 0 time(s).
+The - 0 time(s).
+method - 0 time(s).
+that - 0 time(s).
+is - 0 time(s).
+used - 0 time(s).
+to - 0 time(s).
+evaluate - 0 time(s).
+the - 0 time(s).
+statement - 0 time(s).
+is - 0 time(s).
+determined - 0 time(s).
+by - 0 time(s).
+the - 0 time(s).
+type
+ - 0 time(s).
+of - 0 time(s).
+the - 0 time(s).
+leftmost - 0 time(s).
+object - 0 time(s).
+testin - 0 time(s).
+the - 0 time(s).
+expression - 0 time(s).
+
+
+ - 0 time(s).
+Windows - 0 time(s).
+PowerShell - 0 time(s).
+testsupports - 0 time(s).
+the - 0 time(s).
+following - 0 time(s).
+arithmetic - 0 time(s).
+operators - 0 time(s).
+
+
+
+ - 0 time(s).
+Operator - 0 time(s).
+Description - 0 time(s).
+Example
+ - 0 time(s).
+-------- - 0 time(s).
+----------- - 0 time(s).
+-------
+ - 0 time(s).
++ - 0 time(s).
+Adds - 0 time(s).
+integers - 0 time(s).
+testconcatenates - 0 time(s).
+strings - 0 time(s).
+6+2
+ - 0 time(s).
+arrays - 0 time(s).
+and - 0 time(s).
+hash - 0 time(s).
+tables - 0 time(s).
+"file" - 0 time(s).
++ - 0 time(s).
+"name"
+
+ - 0 time(s).
+- - 0 time(s).
+Subtracts - 0 time(s).
+one - 0 time(s).
+testvalue - 0 time(s).
+from - 0 time(s).
+another - 0 time(s).
+6-2
+ - 0 time(s).
+value - 0 time(s).
+(get-date) - 0 time(s).
+date - 0 time(s).
+- - 0 time(s).
+1
+
+ - 0 time(s).
+- - 0 time(s).
+Makes - 0 time(s).
+a - 0 time(s).
+number - 0 time(s).
+a - 0 time(s).
+testnegative - 0 time(s).
+number - 0 time(s).
+-6+2
+ - 0 time(s).
+-4
+ - 0 time(s).
+
+ - 0 time(s).
+* - 0 time(s).
+Multiplies - 0 time(s).
+integers - 0 time(s).
+testcopies - 0 time(s).
+strings - 0 time(s).
+6*2
+ - 0 time(s).
+and - 0 time(s).
+arrays - 0 time(s).
+the - 0 time(s).
+specified - 0 time(s).
+number - 0 time(s).
+of - 0 time(s).
+"w" - 0 time(s).
+* - 0 time(s).
+3
+ - 0 time(s).
+times - 0 time(s).
+
+
+ - 0 time(s).
+/ - 0 time(s).
+Divides - 0 time(s).
+two - 0 time(s).
+values - 0 time(s).
+6/2
+
+ - 0 time(s).
+
+ - 0 time(s).
+% - 0 time(s).
+Returns - 0 time(s).
+the - 0 time(s).
+remainder - 0 time(s).
+of - 0 time(s).
+a - 0 time(s).
+division - 0 time(s).
+7%2
+ - 0 time(s).
+testoperation - 0 time(s).
+
+ - 0 time(s).
+
+ - 0 time(s).
+
+
+ - 0 time(s).
+OPERATOR - 0 time(s).
+PRECEDENCE
+ - 0 time(s).
+Windows - 0 time(s).
+PowerShell - 0 time(s).
+processes - 0 time(s).
+arithmetic - 0 time(s).
+operators - 0 time(s).
+in - 0 time(s).
+the - 0 time(s).
+following - 0 time(s).
+order - 0 time(s).
+
+
+ - 0 time(s).
+Parentheses - 0 time(s).
+()
+ - 0 time(s).
+- - 0 time(s).
+(for - 0 time(s).
+a - 0 time(s).
+negative - 0 time(s).
+number)
+ - 0 time(s).
+* - 0 time(s).
+/ - 0 time(s).
+%
+ - 0 time(s).
++ - 0 time(s).
+- - 0 time(s).
+(for - 0 time(s).
+testsubtraction)
+
+
+ - 0 time(s).
+Windows - 0 time(s).
+PowerShell - 0 time(s).
+testprocesses - 0 time(s).
+the - 0 time(s).
+expressions - 0 time(s).
+from - 0 time(s).
+left - 0 time(s).
+to - 0 time(s).
+right - 0 time(s).
+according
+ - 0 time(s).
+to - 0 time(s).
+the - 0 time(s).
+precedence - 0 time(s).
+rules - 0 time(s).
+The - 0 time(s).
+following - 0 time(s).
+examples - 0 time(s).
+show - 0 time(s).
+the - 0 time(s).
+effect - 0 time(s).
+of - 0 time(s).
+the
+ - 0 time(s).
+precedence - 0 time(s).
+rules - 0 time(s).
+
+
+ - 0 time(s).
+C - 0 time(s).
+\PS> - 0 time(s).
+3+6/3*4 - 0 time(s).
+
+ - 0 time(s).
+11
+
+ - 0 time(s).
+C - 0 time(s).
+\PS> - 0 time(s).
+10+4/2
+ - 0 time(s).
+12
+
+ - 0 time(s).
+C - 0 time(s).
+\PS> - 0 time(s).
+(10+4)/2
+ - 0 time(s).
+7
+
+ - 0 time(s).
+C - 0 time(s).
+\PS> - 0 time(s).
+(3+3)/ - 0 time(s).
+(1+1)
+ - 0 time(s).
+3
+ - 0 time(s).
+
+ - 0 time(s).
+The - 0 time(s).
+order - 0 time(s).
+in - 0 time(s).
+which - 0 time(s).
+Windows - 0 time(s).
+PowerShell - 0 time(s).
+evaluates - 0 time(s).
+expressions - 0 time(s).
+might - 0 time(s).
+differ - 0 time(s).
+
+ - 0 time(s).
+from - 0 time(s).
+other - 0 time(s).
+testprogramming - 0 time(s).
+and - 0 time(s).
+scripting - 0 time(s).
+languages - 0 time(s).
+that - 0 time(s).
+you - 0 time(s).
+have - 0 time(s).
+used - 0 time(s).
+The - 0 time(s).
+
+ - 0 time(s).
+following - 0 time(s).
+example - 0 time(s).
+shows - 0 time(s).
+a - 0 time(s).
+complicated - 0 time(s).
+assignment - 0 time(s).
+statement - 0 time(s).
+
+
+ - 0 time(s).
+C - 0 time(s).
+\PS> - 0 time(s).
+$a - 0 time(s).
+= - 0 time(s).
+0
+ - 0 time(s).
+C - 0 time(s).
+\PS> - 0 time(s).
+$b - 0 time(s).
+= - 0 time(s).
+1 - 0 time(s).
+2
+ - 0 time(s).
+C - 0 time(s).
+\PS> - 0 time(s).
+$c - 0 time(s).
+= - 0 time(s).
+-1 - 0 time(s).
+-2
+ - 0 time(s).
+
+ - 0 time(s).
+C - 0 time(s).
+\PS> - 0 time(s).
+$b[$a] - 0 time(s).
+= - 0 time(s).
+$c[$a++]
+ - 0 time(s).
+
+ - 0 time(s).
+C - 0 time(s).
+\PS> - 0 time(s).
+$b
+ - 0 time(s).
+1
+ - 0 time(s).
+-1
+
+ - 0 time(s).
+In - 0 time(s).
+this - 0 time(s).
+example - 0 time(s).
+the - 0 time(s).
+expression - 0 time(s).
+$a++ - 0 time(s).
+is - 0 time(s).
+evaluated - 0 time(s).
+before - 0 time(s).
+$c[$a++] - 0 time(s).
+
+ - 0 time(s).
+Evaluating - 0 time(s).
+$a++ - 0 time(s).
+changes - 0 time(s).
+the - 0 time(s).
+value - 0 time(s).
+of - 0 time(s).
+$a - 0 time(s).
+The - 0 time(s).
+variable - 0 time(s).
+$a - 0 time(s).
+in - 0 time(s).
+$b[$a] - 0 time(s).
+
+ - 0 time(s).
+equals - 0 time(s).
+1 - 0 time(s).
+not - 0 time(s).
+0 - 0 time(s).
+so - 0 time(s).
+the - 0 time(s).
+statement - 0 time(s).
+assigns - 0 time(s).
+a - 0 time(s).
+value - 0 time(s).
+to - 0 time(s).
+$b[1] - 0 time(s).
+not - 0 time(s).
+$b[0] - 0 time(s).
+
+
+
+
+ - 0 time(s).
+ADDING - 0 time(s).
+AND - 0 time(s).
+testMULTIPLYING - 0 time(s).
+NON-NUMERIC - 0 time(s).
+TYPES
+ - 0 time(s).
+You - 0 time(s).
+can - 0 time(s).
+add - 0 time(s).
+numbers - 0 time(s).
+strings - 0 time(s).
+arrays - 0 time(s).
+and - 0 time(s).
+hash - 0 time(s).
+tables - 0 time(s).
+And - 0 time(s).
+you - 0 time(s).
+can
+ - 0 time(s).
+multiply - 0 time(s).
+testnumbers - 0 time(s).
+strings - 0 time(s).
+and - 0 time(s).
+arrays - 0 time(s).
+However - 0 time(s).
+you - 0 time(s).
+cannot - 0 time(s).
+multiply - 0 time(s).
+hash
+ - 0 time(s).
+tables - 0 time(s).
+
+
+ - 0 time(s).
+When - 0 time(s).
+you - 0 time(s).
+add - 0 time(s).
+strings - 0 time(s).
+arrays - 0 time(s).
+or - 0 time(s).
+hash - 0 time(s).
+tables - 0 time(s).
+the - 0 time(s).
+elements - 0 time(s).
+are - 0 time(s).
+
+ - 0 time(s).
+concatenated - 0 time(s).
+When - 0 time(s).
+you - 0 time(s).
+concatenate - 0 time(s).
+collections - 0 time(s).
+such - 0 time(s).
+as - 0 time(s).
+arrays - 0 time(s).
+or - 0 time(s).
+hash
+ - 0 time(s).
+tables - 0 time(s).
+a - 0 time(s).
+new - 0 time(s).
+object - 0 time(s).
+is - 0 time(s).
+created - 0 time(s).
+that - 0 time(s).
+contains - 0 time(s).
+the - 0 time(s).
+objects - 0 time(s).
+from - 0 time(s).
+both
+ - 0 time(s).
+collections - 0 time(s).
+If - 0 time(s).
+you - 0 time(s).
+try - 0 time(s).
+to - 0 time(s).
+concatenate - 0 time(s).
+hash - 0 time(s).
+tables - 0 time(s).
+that - 0 time(s).
+have - 0 time(s).
+the - 0 time(s).
+same - 0 time(s).
+key - 0 time(s).
+
+ - 0 time(s).
+the - 0 time(s).
+operation - 0 time(s).
+fails - 0 time(s).
+
+
+ - 0 time(s).
+For - 0 time(s).
+example - 0 time(s).
+the - 0 time(s).
+following - 0 time(s).
+commands - 0 time(s).
+create - 0 time(s).
+two - 0 time(s).
+arrays - 0 time(s).
+and - 0 time(s).
+then - 0 time(s).
+add - 0 time(s).
+them - 0 time(s).
+
+
+
+	C - 0 time(s).
+\PS> - 0 time(s).
+$a - 0 time(s).
+= - 0 time(s).
+1 - 0 time(s).
+2 - 0 time(s).
+3
+	C - 0 time(s).
+\PS> - 0 time(s).
+$b - 0 time(s).
+= - 0 time(s).
+"A" - 0 time(s).
+"B - 0 time(s).
+"C"
+	C - 0 time(s).
+\PS> - 0 time(s).
+$a - 0 time(s).
++ - 0 time(s).
+$b
+	1
+	2
+	3
+	A
+	B
+	C
+ - 0 time(s).
+
+
+ - 0 time(s).
+testYou - 0 time(s).
+can - 0 time(s).
+also - 0 time(s).
+perform - 0 time(s).
+arithmetic - 0 time(s).
+operations - 0 time(s).
+on - 0 time(s).
+objects - 0 time(s).
+of - 0 time(s).
+different - 0 time(s).
+types - 0 time(s).
+
+ - 0 time(s).
+The - 0 time(s).
+operation - 0 time(s).
+that - 0 time(s).
+Windows - 0 time(s).
+PowerShell - 0 time(s).
+performs - 0 time(s).
+is - 0 time(s).
+determined - 0 time(s).
+by - 0 time(s).
+the
+ - 0 time(s).
+Microsoft - 0 time(s).
+NET - 0 time(s).
+Framework - 0 time(s).
+type - 0 time(s).
+of - 0 time(s).
+the - 0 time(s).
+leftmost - 0 time(s).
+object - 0 time(s).
+in - 0 time(s).
+the - 0 time(s).
+operation - 0 time(s).
+
+ - 0 time(s).
+Windows - 0 time(s).
+PowerShell - 0 time(s).
+tries - 0 time(s).
+to - 0 time(s).
+convert - 0 time(s).
+all - 0 time(s).
+the - 0 time(s).
+objects - 0 time(s).
+in - 0 time(s).
+the - 0 time(s).
+operation - 0 time(s).
+to - 0 time(s).
+the
+ - 0 time(s).
+NET - 0 time(s).
+testFramework - 0 time(s).
+type - 0 time(s).
+of - 0 time(s).
+the - 0 time(s).
+first - 0 time(s).
+
+ - 0 time(s).
+object - 0 time(s).
+If - 0 time(s).
+it - 0 time(s).
+succeeds - 0 time(s).
+in - 0 time(s).
+converting - 0 time(s).
+the - 0 time(s).
+objects - 0 time(s).
+it - 0 time(s).
+performs - 0 time(s).
+the - 0 time(s).
+operation
+ - 0 time(s).
+appropriate - 0 time(s).
+to - 0 time(s).
+the - 0 time(s).
+NET - 0 time(s).
+Framework - 0 time(s).
+type - 0 time(s).
+of - 0 time(s).
+the - 0 time(s).
+first - 0 time(s).
+object - 0 time(s).
+If - 0 time(s).
+it - 0 time(s).
+fails - 0 time(s).
+to - 0 time(s).
+
+ - 0 time(s).
+convert - 0 time(s).
+any - 0 time(s).
+of - 0 time(s).
+the - 0 time(s).
+objects - 0 time(s).
+the - 0 time(s).
+operation - 0 time(s).
+fails - 0 time(s).
+
+ - 0 time(s).

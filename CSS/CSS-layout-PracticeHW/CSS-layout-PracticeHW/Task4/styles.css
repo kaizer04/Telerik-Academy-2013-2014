@@ -1,0 +1,67 @@
+﻿body, nav, aside, ul ,li, a, p, div, section, article, footer, header, h1, h2, button, input {
+    margin:0;
+    padding:0;
+    font-family: verdana,helvetica,arial,sans-serif;
+    font-size: 11px;
+}
+
+body {
+    background-color: #f1f1f1;
+    color:#000000;
+}
+
+/*---navigation---*/
+
+body nav {
+    
+    margin-left: 2px;
+    padding-top: 10px;
+    float: left;
+    width: 137px;
+}
+
+body nav ul {
+    margin-top: 10px;
+    
+}
+
+body nav > a {
+    
+    font-weight: bold;
+    padding-left: 20px;
+    background-image: url(images/home.png);
+    background-repeat: no-repeat;
+} 
+
+body nav a {
+    text-decoration:none;
+    color:#000000;
+}
+
+body nav ul li:first-of-type {
+    color: #8E0705;
+    font-weight: bold;
+}
+
+/*---section---*/
+
+body section {
+    border: 1px solid gray;
+    background-color: white;
+    width: 506px;
+    display: inline-block;
+    margin: 1px;
+    padding: 5px;
+    
+}
+
+    body section header {
+        border-bottom: 1px solid #b1b1b1;
+        padding-bottom: 6px;
+    }
+
+    body section header h1 {
+        font-size: 1.6em;
+        font-weight: bold;
+        margin: 12px 0;
+    }

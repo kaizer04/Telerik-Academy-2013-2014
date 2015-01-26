@@ -1,0 +1,106 @@
+
+SHORT DESCRIPTION
+    Windows PowerShell supports the following arithmetic operators:
+              times.
+        +, - (for subtraction)
+        C:\PS> (3+3)/ (1+1)
+
+    the operation fails.
+    You can also perform arithmetic operations on objects of different types. 
+        C:\PS> $array = 1,2,3
+    Because the method that is used to evaluate statements is determined by the
+        C:\PS> "file" * 3
+
+        You can add another hash table only to a hash table.
+        C:\PS> $array + $hash1
+        C:\PS> $sum[3]
+        b                              2
+
+        file
+        Name                           Value
+
+        C:\PS> (512MB * 512MB).GetType().FullName
+    results.
+        C:\PS> $intB = 4 
+    strings, and arrays. However, you can also use arithmetic operators with 
+	C:\PS> get-process | where {($_.ws * 2) -gt 50mb}
+	2 
+
+
+	C:\PS> $servers = @{0 = "LocalHost"; 1 = "Server01"; 2 = "Server02"} 
+	C:\PS> $servers += @{3 = "Server03"} #Use assignment operator 
+    about_variables
+              arrays, and hash tables.                "file" + "name"
+
+
+    appropriate to the .NET Framework type of the first object. If it fails to 
+
+        Name                           Value
+        ----                           -----
+    the same key:
+
+        C:\PS> (2). GetType().FullName
+        At line:1 char:22
+
+	-9 
+	C:\PS> $b + $a 
+	1 Server01 
+    also operate on strings, arrays, and hash tables. The addition operator
+    OPERATOR PRECEDENCE
+        
+	3
+        3
+    Hash tables are a slightly different case. You can add hash tables. And,
+
+        2
+        3
+        ----                           -----
+
+
+
+	PS C:\ps-test> "Windows" + " " + "PowerShell" 
+	Name Value 
+    also operate on strings, arrays, and hash tables. The addition operator
+        
+        3
+
+        3
+
+
+	Name Value 
+    also operate on strings, arrays, and hash tables. The addition operator
+    OPERATOR PRECEDENCE
+        
+	3
+        3
+    Hash tables are a slightly different case. You can add hash tables. And,
+
+        2
+        3
+        ----                           -----
+
+
+
+	PS C:\ps-test> "Windows" + " " + "PowerShell" 
+	Name Value 
+    also operate on strings, arrays, and hash tables. The addition operator
+        
+        3
+
+        3
+
+
+	Name Value 
+    *         Multiplies integers; copies strings     6*2
+    tables, a new object is created that contains the objects from both
+        + 2 + <<<<  "file"
+        4
+        C:\PS> $hash1
+
+	C:\PS> 7 % 2 
+    about_hash_tables
+    Microsoft .NET Framework type of the leftmost object in the operation.
+        c2                             Server02
+
+
+

@@ -1,0 +1,89 @@
+﻿body {
+    }
+
+
+section {
+    background-color: #555454;
+    width: 660px;
+    height: 300px;
+    border-radius: 10px;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 15px;
+    border: 1px solid rgba(82, 77, 77, 0.80)
+
+    }
+
+header {
+    border-radius: 10px 10px 0 0;
+    height: 70px;
+    background-color: #3b3838;
+    font-family: Georgia;
+    
+    }
+
+form {
+    padding: 10px;
+    margin: 0;
+    }
+
+img{
+	opacity:0.7;
+	}
+
+label {
+    
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 1.33em;
+    font-weight: bold;
+    color: #FFF;
+    margin: 0;
+    vertical-align: 15px;
+	padding-left: 10px;
+    }
+
+input{
+	margin-left: 15px;
+	margin-bottom: 5px;
+	vertical-align: 15px;
+	}
+
+[type=text] {
+	padding-left: 10px;
+    width: 140px;
+	}
+
+[type=button]{
+	color: white;
+	border-radius: 10px;
+	width: 55px;
+    height: 30px;
+	background-image: linear-gradient(bottom, rgb(237,21,21) 34%, rgb(150,11,11) 66%);
+	background-image: -o-linear-gradient(bottom, rgb(237,21,21) 34%, rgb(150,11,11) 66%);
+	background-image: -moz-linear-gradient(bottom, rgb(237,21,21) 34%, rgb(150,11,11) 66%);
+	background-image: -webkit-linear-gradient(bottom, rgb(237,21,21) 34%, rgb(150,11,11) 66%);
+	background-image: -ms-linear-gradient(bottom, rgb(237,21,21) 34%, rgb(150,11,11) 66%);
+	background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.34, rgb(237,21,21)),color-stop(0.66, rgb(150,11,11)));
+	}
+
+article {
+    padding: 0 80px 10px 10px;
+    margin-top: 0;
+    }
+
+h1 {
+    font-family: Georgia;
+    color: yellow;
+    font-size: 1.9em;
+    font-weight: normal;
+    margin: 15px 0;
+    }
+
+p {
+	color:#999;
+	padding: 0;
+	margin: 0;
+	}
+
+span {
+	color: #ccc4c4;
+	}

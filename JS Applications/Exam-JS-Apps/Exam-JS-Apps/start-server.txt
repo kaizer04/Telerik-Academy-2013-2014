@@ -1,0 +1,16 @@
+VISITORS - view all the posts, register or login a user,	Providing a username and a password
+
+
+
+users - can logout, can post 
+
+
+
+<section class="container text-center">
+    <h2 id="total-posts">Last 100 posts:</h2>
+    <div id="posts">
+
+    </div>
+</section>
+
+<div id="container"> ==== div id="main-content ">

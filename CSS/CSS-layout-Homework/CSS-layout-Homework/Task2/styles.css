@@ -1,0 +1,67 @@
+﻿body {
+   
+}
+
+section {
+    background-color: #eeeeee;
+    width: 400px;
+    height: 530px;
+    border-radius: 10px;
+    font-family: Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 13px;
+}
+
+header {
+    margin-left: 10px;
+    padding-top: 15px;
+    font-size: 1.2em;
+}
+
+article {
+    background-color: white;
+    height: 120px;
+    margin-top: 35px;
+    width: 375px;
+    margin-left: 10px;
+    border: 1px solid gray;
+
+}
+
+img {
+    padding: 15px;
+    float: left;
+}
+
+span {
+    font-weight: bold;
+}
+
+.buttons {
+    text-align: right;
+    margin-right: 15px;
+}
+
+.right-btn {
+    width: 60px;
+    background-image: url(images/right-butt.png);
+    
+}
+
+.left-btn {
+    background-image: url(images/left-butt.png);
+    width: 75px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.right-btn, .left-btn {
+    height: 28px;
+	font-size: 0.9em;
+    border-color: #8A0000;
+    box-shadow: inset 15px 0 0 #8A0000;
+}
+
+

@@ -1,0 +1,48 @@
+﻿body, html, ul, li, div, a, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, 'Palatino Linotype', 'Book Antiqua', 'URW Palladio L', serif;
+    font-size: 18px;
+
+}
+
+#wrapper {
+    width: 960px;
+}
+
+.all-items, .selected-items {
+    margin-top: 25px;
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+    list-style-type: none;
+    overflow-y: scroll;
+    background: -webkit-linear-gradient(top,  #8168FF 0%, #FFFFFF 100%);
+}
+
+.selected {
+    background: #6C4EFF;
+}
+
+    
+
+.all-items {
+    margin-left: 25px;
+}
+
+.selected-items {
+    margin-left: 4px;
+    
+}
+
+img {
+    margin-left: 4px;
+    float: left; 
+    margin-top: 115px; 
+}

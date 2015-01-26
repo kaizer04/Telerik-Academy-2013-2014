@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Countries</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        body {
+            background-color: #595959;
+            font-family: Calibri, Sans-serif;
+        }
+
+        thead {
+            background-color: #59BD06;
+            color: #FFFFFF;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            text-align: left;
+        }
+
+        th {
+            padding: 5px 10px;
+            border: 1px solid #3A8F08;
+        }
+
+        td {
+            padding: 5px 60px 5px 10px;
+            border: 1px solid #C7C5AE;
+        }
+
+        tr.odd {
+            background-color: #FFFFFF;
+        }
+
+        tr.even {
+            background-color: #ECECD8;
+        }
+
+        img {
+            margin-right: 10px;
+        }
+
+        img {
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <form name="countries" method="get" action="#">
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Contact Name
+                    </th>
+                    <th>
+                        City
+                    </th>
+                    <th>
+                        Country
+                    </th>
+                    <th>
+                        Is Promoted
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd">
+                    <td>
+                        Maria Anders
+                    </td>
+                    <td>
+                        Berlin
+                    </td>
+                    <td>
+                        <img class="flags" src="http://www.crassulaceae.com/bilder/system/flagGermany.png" width="24" height="18" alt="Germany flag" />
+                        Germany
+                    </td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" name="isPromotedMaria" class="isPromoted" />
+                    </td>
+                </tr>
+                <tr class="even">
+                    <td>
+                        Ana Trujillo
+                    </td>
+                    <td>
+                        México D.F.
+                    </td>
+                    <td>
+                        <img class="flags" src="http://www.immihelp.com/us-visa/mexico/images/flag.png" width="24" height="18" alt="Mexican flag" />
+                        Mexico
+                    </td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" name="isPromotedAna" class="isPromoted" />
+                    </td>
+                </tr>
+                <tr class="odd">
+                    <td>
+                        Antonio Moreno
+                    </td>
+                    <td>
+                        México D.F.
+                    </td>
+                    <td>
+                        <img class="flags" src="http://www.immihelp.com/us-visa/mexico/images/flag.png" width="24" height="18" alt="Mexican flag" />
+                        Mexico
+                    </td>
+                    <td>
+                        <input type="checkbox" checked="checked" disabled="disabled" name="isPromotedAntonio" class="isPromoted" />
+                    </td>
+                </tr>
+                <tr class="even">
+                    <td>
+                        Thomas Hardy
+                    </td>
+                    <td>
+                        London
+                    </td>
+                    <td>
+                        <img class="flags" src="http://www.discovery-campervans.com.au/images/layout/uk_flag.png" width="24" height="18" alt="United Kingdom flag" />
+                        UK
+                    </td>
+                    <td>
+                        <input type="checkbox" disabled="disabled" name="isPromotedThomas" class="isPromoted" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</body>
+</html>

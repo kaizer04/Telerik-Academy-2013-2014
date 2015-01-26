@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Handlebars Demos</title>
+</head>
+<body>
+    <script id="articles-template" type="text/x-handlebars-template">
+        <section>
+            {{#each articles}}
+            
+            <article id="article-{{id}}" class="article">
+                <h1>{{title}}</h1>
+
+                <span class="author">
+                    <!--by {{author.name}}-->
+                    {{#with author.name}}
+                        by {{first}} {{last}}
+                    {{/with}}
+                </span>
+            </article>
+            
+
+            {{/each}}
+        </section>
+    </script>
+
+    <script src="../Scripts/handlebars.min.js"></script>
+
+    <script>
+        function getPosts(count) {
+            var posts,
+                i;
+            count = count || 10;
+            posts = [];
+            for (i = 0; i < count; i += 1) {
+                posts.push({
+                    id: i + 1,
+                    title: 'Post #' + (i + 1),
+                    author: {
+                        name: {
+                            first: 'Author',
+                            last: '#' + (i + 3)
+                        }
+                    }
+                });
+            }
+            return posts;
+        }
+
+        var templateNode = document.getElementById('articles-template');
+        var templateString = templateNode.innerHTML;
+
+        var template = Handlebars.compile(templateString);
+
+        var articles = getPosts(10);
+
+        var articleHTML = template({
+            articles: articles
+        });
+
+        //if NO ARTICLES - THERE`S {{else}} up the code
+        //var articleHTML = template({
+        //    articles: []
+        //});
+        //console.log(articleHTML);
+        document.body.innerHTML += articleHTML;
+    </script>
+
+</body>
+</html>

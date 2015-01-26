@@ -1,0 +1,4 @@
+1. See connection string in StudentSyste.Common
+2. You can seed the DB - start project StudentSystem.ConsoleClient.
+3. Start StudentSystem.Services
+4. Look Home->API for the urls

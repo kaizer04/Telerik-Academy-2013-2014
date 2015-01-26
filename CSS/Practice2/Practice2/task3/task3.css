@@ -1,0 +1,71 @@
+body, html, div, form, fieldset, legend, label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 16px;
+}
+
+#wrapper {
+    width: 960px;
+}
+
+form {
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 380px;
+    background: -webkit-linear-gradient(top,  #68D1FF 0%, #8CFFFB 100%);
+    display: block;
+    padding: 15px;
+    text-align: right;
+}
+
+fieldset {
+    padding: 5px 15px;
+    border: 3px solid black;
+    
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 1.3em;
+    padding: 0 15px;
+    font-style: italic
+}
+
+fieldset input {
+    border: 1px solid #008FCE;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background: -webkit-linear-gradient(top,  #69D2FF, #8BFEFB);
+    margin-top: 1px;
+}
+
+fieldset input#tb-age {
+    padding: 5px;
+    width: 35px;
+}
+
+form > input {
+    margin-top: 7px;
+    
+}
+    form > input:last-of-type, button {
+        margin-top: 15px;
+        border-radius: 5px;
+        background: -webkit-linear-gradient(top,  #36C2FF 0%, #8BFEFB 100%);
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 5px 15px;
+        font-size: 1.2em;
+
+    }
+
+form > input:last-of-type:hover, button:hover {
+    background: #9BE1FF;          
+}

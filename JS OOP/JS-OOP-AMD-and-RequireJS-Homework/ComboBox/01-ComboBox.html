@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>01 - ComboBox</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <script src="scripts/libs/require.js" data-main="scripts/config"></script>
+</head>
+<body>
+<button id="selectBtn">SELECT YOUR COURSE</button>
+<div id="combobox-root"></div>
+<script type="text/x-handlebars-template" id="combobox-template">
+    {{#courses}}
+    <div class="character-box" id="character-{{id}}">
+        <strong class="characterName">{{course}}</strong>
+        <p class="characterDescription">{{courseDescription}}</p>
+        <a href="{{url}}" />{{url}}</a>
+    </div>
+    {{/courses}}
+</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--Create a module that works with moving div elements-->
+    <title>Task 2</title>
+    <style>
+        button#addRectBtn {
+            margin-left: 500px;
+        }
+    </style>
+    <script>
+        var movingShapes = (function () {
+            function generateDiv() {
+                var generated = document.createElement('div');
+                var width = 50;
+                var height = 50;
+                generated.style.width = width + "px";
+                generated.style.height = height + "px";
+
+                generated.style.textAlign = 'center';
+
+                generated.style.borderRadius = width + "px";
+                generated.style.borderWidth = 5 + "px";
+                generated.style.borderStyle = 'solid';
+
+                generated.style.backgroundColor = getRandomColor();
+                generated.style.color = getRandomColor();
+                generated.style.borderColor = getRandomColor();
+
+                generated.style.position = 'absolute';
+
+                return generated;
+            }
+
+            function getRandomColor() {
+                var red = Math.floor(Math.random() * 256);
+                var green = Math.floor(Math.random() * 256);
+                var blue = Math.floor(Math.random() * 256);
+
+                return "rgb(" + red + "," + green + "," + blue + ")";
+            }
+
+            function addMovingShape(type) {
+                var div = generateDiv();
+                div.setAttribute('movementConst', 0);
+                document.body.appendChild(div);
+                if (type == 'rect') {
+                    moveThatRect(div);
+                }
+                else {
+                    moveThatEll(div);
+                }
+
+            }
+
+            var rectX = 300;
+            var rectY = 300;
+
+            function moveThatRect(div) {
+                function rectMovement() {
+                    var movement = parseInt(div.getAttribute('movementConst'));
+                    movement+=3;
+                    if (movement === 360) {
+                        movement = 0;
+                    }
+
+                    if (movement <= 90) {
+                        var x = (rectX * (movement / 90));
+                        div.style.left = x + "px";
+                    }
+                    else if (movement <= 180) {
+                        var y = (rectY * ((movement-90) / 90));
+                        div.style.top = y + "px";
+                    }
+                    else if (movement <= 270) {
+                        var x2 = (rectX - rectX * ((movement - 180) / 90));
+                        div.style.left = x2 + "px";
+                    }
+                    else {
+                        var y2 = (rectY - rectY * ((movement - 270) / 90));
+                        div.style.top = y2 + "px";
+                    }
+
+                    div.setAttribute('movementConst', movement);
+                }
+                setInterval(rectMovement, 75);
+            }
+
+
+            var ellX = 300;
+            var ellY = 150;
+            var ellR = 150;
+            function moveThatEll(div) {
+                function ellMovement() {
+                    var movement = parseInt(div.getAttribute('movementConst'));
+                    movement += 3;
+                    if (movement === 360) {
+                        movement = 0;
+                    }
+
+                    var left = ellX + Math.cos((2 * 3.14 / 180) * (movement)) * ellR;
+                    var right = 2 * (ellY + Math.sin((2 * 3.14 / 180) * (movement)) * ellR);
+                    div.style.left = left + "px";
+                    div.style.top = right + "px";
+
+                    div.setAttribute('movementConst', movement);
+                }
+                setInterval(ellMovement, 100);
+            }
+
+            return {
+                add: addMovingShape
+            };
+        })();
+
+
+    </script>
+</head>
+<body>
+    <button id="addRectBtn">Add Rect Move</button><button id="addCircleBtn">Add Circle Move</button><br />
+    <script>
+        //testing
+        movingShapes.add('ellipse')
+        var addCircleBtn = document.getElementById('addCircleBtn');
+        addCircleBtn.addEventListener('click', function () {
+            movingShapes.add('ellipse');
+        });
+
+        var addRectBtn = document.getElementById('addRectBtn');
+        addRectBtn.addEventListener('click', function () {
+            movingShapes.add('rect');
+        });
+        //movingShapes.add('rect');
+        //movingShapes.add('ellipse');
+    </script>
+</body>
+</html>

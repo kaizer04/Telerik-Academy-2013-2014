@@ -1,0 +1,33 @@
+﻿
+#main-menu a {
+    display:block;
+    color:black;
+}
+
+#main-menu ul li a {
+    color:grey;
+}
+
+#main-menu, #main-menu ul {
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+#main-menu li ul { 
+    display:none; 
+    margin-left:5px;
+}
+
+#main-menu li:hover ul { 
+    display:block; 
+}
+
+a, a:link, a:visited {
+    text-decoration:none;
+}
+
+a:hover, a:active {
+    text-decoration:underline;
+}
+

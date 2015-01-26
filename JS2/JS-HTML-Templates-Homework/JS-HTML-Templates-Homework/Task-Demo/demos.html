@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Handlebars Demos</title>
+</head>
+<body>
+    <script id="article-template" type="text/x-handlebars-template">
+        <h1>{{title}}</h1>
+        <p>{{content}}</p>
+        <!--<p>{{{content}}}</p>-->
+    </script>
+    
+    <script src="../Scripts/handlebars.min.js"></script>
+
+    <script>
+        var templateNode = document.getElementById('article-template');
+        var templateString = templateNode.innerHTML;
+
+        var template = Handlebars.compile(templateString);
+
+        var article = {
+            title: 'Article Title',
+            content: 'Lorem ipsum dolor sit amet.'
+        };
+
+        var articleHTML = template(article);
+        console.log(articleHTML);
+        document.body.innerHTML += articleHTML;
+    </script>
+    
+</body>
+</html>

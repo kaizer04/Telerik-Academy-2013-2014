@@ -1,0 +1,95 @@
+﻿body, div, ul, li, a, span, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    font-size: 16px;
+
+}
+
+#wrapper {
+    width: 960px;
+}
+
+.notification-list {
+    
+    border: 1px solid black;
+    border-bottom: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background: -webkit-linear-gradient(top,  #ABABAB 0%, #DDDDDD 100%);
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 470px;
+    color: #777777;
+    position: relative;
+
+}
+
+ul.notification-list > li  {
+    display: inline-block;
+    border-right: 1px solid black;
+    padding: 5px 15px 5px 15px;
+    font-size: 1.2em;
+    border-bottom: 1px solid black;
+   
+}
+
+    ul.notification-list > li:hover {
+        border-bottom: none;
+    }
+
+ul.notification-list > li:hover .content {
+    display: block;
+    
+}
+
+    ul.notification-list > li:last-of-type {
+        border-right: none;
+    }
+
+a {
+    text-decoration: none;
+    color: #777;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    left: -1px;
+    
+    width: 470px;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    /*background: -webkit-linear-gradient(top,  #DDDDDD 0%, #CCCCCC 100%);*/
+    
+}
+
+    .content ul {
+        list-style-type: none;
+        padding-bottom: 5px;
+        font-size: 16px;
+        
+    }
+
+        .content ul li {
+            padding-left: 15px;
+            margin-top: 10px;
+        }
+
+            .content ul li a:hover {
+                text-decoration: underline;
+            }
+
+        .content ul li span {
+            margin-left: 5px;
+
+        }
+
+img {
+    width: 15px;
+    height: 15px;
+}

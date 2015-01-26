@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 1</title>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="SliderSlides.js"></script>
+    <style>
+        #sliderContent {
+            width: 600px;
+            height: 400px;
+            border: 5px solid black;
+            padding: 20px;
+        }
+
+        #sliderHolder > button:last-of-type {
+            margin-left: 460px;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="sliderHolder">
+        <div id="sliderContent"></div>
+        <button id="btnPreviousSlide">Previous Slide</button>
+        <button id="btnNextSlide">Next Slide</button>
+    </div>
+
+    <script>
+        (function () {
+            var allSlides = getAllSlides();
+            var sliderContent = $('#sliderContent');
+            var currentSlideIndex = 0;
+            var changeSlideTime = 5000;
+
+            $('#btnPreviousSlide').on('click', onPreviousSlide);
+            $('#btnNextSlide').on('click', onNextSlide);
+
+            var autoSlideChanger = setInterval(onNextSlide, changeSlideTime);
+
+            showCurrentSlide();
+
+            function onPreviousSlide() {
+                currentSlideIndex--;
+                if (currentSlideIndex < 0) {
+                    currentSlideIndex = allSlides.length - 1;
+                }
+
+                // resets the timer for changing slides
+                clearInterval(autoSlideChanger);
+                autoSlideChanger = setInterval(onNextSlide, changeSlideTime);
+
+                showCurrentSlide();
+            }
+
+            function onNextSlide() {
+                currentSlideIndex++;
+                if (currentSlideIndex == allSlides.length) {
+                    currentSlideIndex = 0;
+                }
+
+                // resets the timer for changing slides
+                clearInterval(autoSlideChanger);
+                autoSlideChanger = setInterval(onNextSlide, changeSlideTime);
+
+                showCurrentSlide();
+            }
+            
+            var timeout = 300;
+            function showCurrentSlide() {
+                sliderContent.fadeOut(timeout);
+                setTimeout(function () {
+                    sliderContent.html(allSlides[currentSlideIndex]);
+                }, timeout);
+                sliderContent.fadeIn(timeout);
+            };
+        }())
+    </script>
+</body>
+</html>

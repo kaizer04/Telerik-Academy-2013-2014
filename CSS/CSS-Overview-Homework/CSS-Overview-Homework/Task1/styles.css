@@ -1,0 +1,53 @@
+﻿body {
+    background-color: #848787;
+    font-size: 18px;
+    font-family: Calibri;
+    color: #BFC9C8
+}
+
+table {
+    height:340px;
+    width:400px;
+}
+
+td, th {
+    padding: 4px;
+}
+
+tr {
+    vertical-align: baseline;
+}
+
+thead {
+    font-size: 1.67em;
+}
+
+.circle {
+    background-color: #71B47A;
+    border-radius: 60px;
+    float: left;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 4px;
+    width: 13px;
+}
+
+.leftcol {
+    color: white;
+    font-style: italic;
+}
+
+#red {
+    color: #ff0000;
+}
+
+.yellow {    /*направих го клас тъй като id-то е само за един елемент*/
+    color: #F2F59D;
+}
+
+#orange {
+    color: #ff6a00;
+}
+
+
+

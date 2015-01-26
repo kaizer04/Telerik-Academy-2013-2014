@@ -1,0 +1,48 @@
+﻿body {
+    font-family: Calibri;
+    color: #000000;
+}
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background: #1eb90c;
+    color: #ffffff;
+}
+
+thead td {
+    border-left: 1px solid #378A08;
+    border-right: 1px solid #6FC32C;
+    border-bottom:1px solid #297509;
+    padding: 5px 10px;
+    
+}
+
+td {
+    text-align: left;
+}
+
+tbody td {
+    border: 1px solid #C7C5AE;
+    padding: 5px 60px 5px 10px;
+}
+
+img {
+    width: 24px; 
+    height:18px; 
+    margin-right: 8px;
+    float: left;
+}
+
+tr:nth-child(2n) {
+	background-color: #d7cece;
+}
+
+input {
+    border-style:ridge;
+}
+
+
+
+

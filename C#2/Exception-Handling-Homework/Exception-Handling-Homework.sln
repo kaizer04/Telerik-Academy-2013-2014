@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2013 for Windows Desktop
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. CalculatesSquareRoot", "01. CalculatesSquareRoot\01. CalculatesSquareRoot.csproj", "{35C04852-2A30-4982-A1D2-499E77C70E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. EntersIntegerNumberInRange", "02. EntersIntegerNumberInRange\02. EntersIntegerNumberInRange.csproj", "{92EB9747-848A-4ABE-BF97-4541E245C059}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. ReadsFileContentsAndPrints", "03. ReadsFileContentsAndPrints\03. ReadsFileContentsAndPrints.csproj", "{DF4EC89C-F5F6-4C81-B7AE-114C5E85D921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. DownloadFileAndStore", "04. DownloadFileAndStore\04. DownloadFileAndStore.csproj", "{865A553C-D449-4250-938C-A4E0640DB466}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35C04852-2A30-4982-A1D2-499E77C70E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C04852-2A30-4982-A1D2-499E77C70E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C04852-2A30-4982-A1D2-499E77C70E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C04852-2A30-4982-A1D2-499E77C70E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92EB9747-848A-4ABE-BF97-4541E245C059}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92EB9747-848A-4ABE-BF97-4541E245C059}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92EB9747-848A-4ABE-BF97-4541E245C059}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92EB9747-848A-4ABE-BF97-4541E245C059}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4EC89C-F5F6-4C81-B7AE-114C5E85D921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4EC89C-F5F6-4C81-B7AE-114C5E85D921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4EC89C-F5F6-4C81-B7AE-114C5E85D921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4EC89C-F5F6-4C81-B7AE-114C5E85D921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865A553C-D449-4250-938C-A4E0640DB466}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865A553C-D449-4250-938C-A4E0640DB466}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865A553C-D449-4250-938C-A4E0640DB466}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865A553C-D449-4250-938C-A4E0640DB466}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,102 @@
+body, div, h1, ul, li, p, input {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 960px;
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-size: 16px;
+}
+
+#wrapper div {
+    border: 1px solid black;
+    margin: 30px;
+    border-radius: 15px;
+    width: 350px;
+    background: -webkit-linear-gradient(top,  #EEEEEE 0%, #AAAAAA 100%);
+    padding: 15px;
+}
+
+    h1 {
+        font-size: 1.8em;
+        padding-left: 7px;
+    }
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    zoom: 1;
+}
+
+    .messages-list:after {
+        display: block;
+        content: "";
+        height: 0;
+        clear: both;
+    }
+
+.messages-list li {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 200px;
+    margin-top: 5px;
+    padding: 5px 15px;
+}
+
+.me-item {
+    float: right;
+    background: -webkit-linear-gradient(top,  #29EDFF 0%, #C0FAFF 100%);
+}
+
+.toshko-item {
+    float: left;
+    background: -webkit-linear-gradient(top,  #DDFFD0 0%, #6FFF3B 100%);
+}
+
+.date {
+    font-family: Consolas;
+    font-size: 0.8em;
+}
+
+.messages-list li span {
+    display: block;
+}
+
+.messages-list li span:first-of-type {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.toshko-item span:first-of-type {
+     text-align: right;
+}
+
+.me-item .date {
+    text-align: right;
+}
+
+input {
+    height: 25px;
+    width: 245px;
+    border-radius: 5px; 
+    border: none;
+    background: #EEEEEE;
+    padding: 5px 15px;
+    float: left;
+}
+
+button {
+    border: none;
+    padding: 5px 15px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    background: -moz-linear-gradient(top, #EBEBEB 0%, #ADADAD 100%);
+    
+}
+
+button:hover {
+  background: #eee;
+}

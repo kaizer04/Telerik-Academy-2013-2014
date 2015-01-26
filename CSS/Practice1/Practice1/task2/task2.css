@@ -1,0 +1,123 @@
+body, div, #wrapper, ul, li, a, table, thead, tbody, tr, th, td, .tab-strip {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+#wrapper {
+    width: 960px;
+    font-family: Cambria, 'Times New Roman', 'Nimbus Roman No9 L', 'Freeserif', Times, serif;
+    font-size: 16px;
+}
+
+.tab-strip {
+    margin: 15px 0 0 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 340px;
+    height: 230px;
+    
+    list-style-type: none;
+    position: relative;
+}
+
+    .tab-strip > li {
+        display: inline-block;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        padding: 5px 15px;
+        border-radius: 5px;
+        background: #b9b5b5;
+        background: -moz-linear-gradient(top, #eeeeee 0%, #aaaaaa 100%);
+        margin-right: -4px;
+    }
+
+    .tab-strip > li:last-of-type {
+      border-right: none;
+      
+    }
+
+    .tab-strip > li.current {
+        background: none;
+        border-bottom: none;
+        border-radius: 0;
+    }
+
+    .tab-strip > li.current .tab-btn {
+        font-weight: bold;
+    }
+
+    .tab-strip > li .tab-btn {
+        color: #000000;
+        text-decoration: none;
+        font-size: 1.4em;
+     }
+
+    .tab-strip > li.current .tab-content {
+        display: block;
+    }
+
+    .tab-strip > li .tab-content {
+        display: none;
+        position: absolute;
+        top: 35px;
+        left: 15px;
+        width: 330px;
+        height: 80%;
+        border-top: none;
+        padding: 5px;
+        padding-top: 15px;
+    }
+
+    .tab-strip > li:hover {
+        background: #eee;
+    }
+
+    .tab-strip > li .tab-content ul {
+        list-style-type: disc;
+    }
+
+    .tab-strip > li .tab-content ul li ul {
+        margin-left: 25px;
+        list-style-type: lower-alpha;
+    }
+
+    .tab-strip > li .tab-content table {
+        border: 1px solid black;
+    }
+
+    .tab-strip > li .tab-content table thead {
+        background: #aaaaaa;
+        background: -moz-linear-gradient(top, #aaaaaa 0%, #eeeeee 75%);
+    }
+    .tab-strip > li .tab-content table thead th {
+        border: 1px solid black;
+        padding: 5px 15px;
+    }
+
+    .tab-strip > li .tab-content table tbody {
+        background-color: #eee;
+    }
+
+    .tab-strip > li .tab-content table tbody td {
+        border: 1px solid black;
+        padding: 5px 5px;
+    }
+
+
+
+
+
+        
+
+        
+
+        
+
+
+
+
+

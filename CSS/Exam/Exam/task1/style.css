@@ -1,0 +1,103 @@
+html, body, div, header, h1, h2, nav, article, p, aside, form, input {
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#wrapper {
+	width: 960px;
+	margin-left: 4px;
+    
+    
+}
+
+header {
+    background-image: url(images/header-bg.png);
+    color: white;
+   
+}
+
+#title {
+    float: left;
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    
+
+    padding-bottom: 20px;
+}
+
+#title h1 {
+    font-size: 34px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 14px;
+    color: #98B7C0;
+}
+
+#nav {
+    float: right;
+    font-weight: bold;
+    font-size: 18px;
+    color: #C45844;
+    margin-top: 100px;
+    margin-right: 30px;
+}
+
+    #nav ul li {
+        display: inline-block;
+    }
+
+    #nav ul li:last-of-type {
+        margin-left: 15px;
+    }
+
+.clear {
+	clear: both;
+}
+
+div#line {
+    border-bottom: 5px solid #39C518;
+}
+
+
+div#content {
+    float: left;
+    width: 760px;
+    margin-top: 20px;
+    
+}
+
+    div#content h1 {
+        font-size: 30px;
+        color: #59770E;
+    }
+
+article{
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 14px;
+}
+
+aside#aside {
+    margin-top: 20px;
+    color: #59770E;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+input {
+    margin-top: 5px;
+    margin-left: 5px;
+   
+}

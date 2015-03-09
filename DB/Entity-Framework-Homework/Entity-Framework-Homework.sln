@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-BasicUsage", "01-BasicUsage\01-BasicUsage.csproj", "{C5DDB9C8-EA0D-494A-860C-06CC0F6300D2}"
 EndProject
@@ -24,6 +24,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-UserGroups", "11-UserGroups\11-UserGroups.csproj", "{952CF059-7DFE-48BA-ACDB-39150EFE44CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindDataModel.Data", "NorthwindDataModel.Data\NorthwindDataModel.Data.csproj", "{2A900A06-C05D-4CB9-89B1-12903BB96BB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{832F4564-9B4A-4FD1-BA81-5E9CCA24A6C9}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

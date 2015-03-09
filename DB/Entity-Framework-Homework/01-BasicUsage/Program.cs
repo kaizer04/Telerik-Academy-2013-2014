@@ -6,6 +6,12 @@
     using System.Text;
     using System.Threading.Tasks;
     
+    
+    using System.Data;
+    using System.Data.Entity;
+
+    using NorthwindDataModel.Data;
+    
     public class Program
     {
         public static void Main()

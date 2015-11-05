@@ -5,8 +5,10 @@ Use function overloading */
 function getWordOccurancesInText(text, word, sensitive) {
     var caseSens = sensitive || false;
 
-    var str = text.replace(/\W+/g, ' '); 
+    var str = text.replace(/\W+/g, ' ');
+    
     var words = str.split(' ');
+    console.log(words);
     var occurrences = 0;
 
     if (caseSens) {

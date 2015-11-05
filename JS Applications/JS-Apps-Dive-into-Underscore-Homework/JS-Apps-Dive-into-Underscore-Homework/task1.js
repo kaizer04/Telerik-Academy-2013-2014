@@ -2,7 +2,7 @@
     //check if running on Node.js
     if (typeof require !== 'undefined') {
         //load underscore if on Node.js
-        _ = require('../../scripts/underscore.js');
+        _ = require('./lib//underscore-min.js');
     }
 
     var Student = Object.create({
